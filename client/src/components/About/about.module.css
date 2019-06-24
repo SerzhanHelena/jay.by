@@ -1,0 +1,19 @@
+.about_titles {
+    font-weight: bold;
+    
+}
+
+.about_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about_us_block {
+    font-size: 22px;
+    font-family: 'Lato';
+    text-align: justify;
+}
+
+.about_us_for_customer {
+    margin: 22px;
+}

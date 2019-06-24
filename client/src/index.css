@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@font-face {
+  font-family: 'Gagalin';
+  src:  url(./fonts/Gagalin-Regular.ttf) format('truetype'),
+        url(./fonts/Gagalin-Regular.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src:  url(./fonts/Lato/Lato-Regular.ttf) format('truetype'),
+        url(./fonts/Lato/Lato-Italic.ttf) format('truetype'),
+        url(./fonts/Lato/Lato-Bold.ttf) format('truetype')
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-color: #e61d2b;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu-enter {
+  opacity: 0.01;
+  transform: translateX(-250px);
+}
+
+.menu-enter.menu-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 0.5s;
+}
+
+.menu-leave {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.menu-leave.menu-leave-active {
+  opacity: 0.01;
+  transform: translateX(-250px);
+  transition: 0.5s;
+}
+
+.modalWindow-enter {
+  opacity: 0.01;
+}
+
+.modalWindow-enter.modalWindow-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.modalWindow-leave {
+  opacity: 1;
+}
+
+.modalWindow-leave.modalWindow-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.ui.modal>.content {
+  display: grid!important;
+  grid-template-columns: 1fr 2fr!important;
+}
+
+section:not(#main_section3):not(#advices_section) {
+  padding-top: 220px;
+}
+
+@media screen and (max-width: 639px) {
+  section {
+    padding-top: 120px;
+  }
+}

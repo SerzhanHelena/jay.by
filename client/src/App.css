@@ -1,0 +1,9 @@
+h1 {
+    font-family: Gagalin;
+    text-align: center;
+}
+
+.app-wrapper-content {
+    flex-grow: 1;
+}
+
