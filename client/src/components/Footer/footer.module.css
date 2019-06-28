@@ -92,7 +92,7 @@ footer .contacts p {
 
 .contacts_email::before {
     content: '';
-    background-image: url('../../images/footer2.png'); 
+    background-image: url('../../images/footer.png'); 
     background-size: 120px;
     background-position: -80px -19px;
     margin: 0 6px;
@@ -103,7 +103,7 @@ footer .contacts p {
 
 .contacts_phone::before {
     content: '';
-    background-image: url('../../images/footer2.png'); 
+    background-image: url('../../images/footer.png'); 
     background-size: 120px;
     background-position: -56px -23px;
     margin: 0 6px;
@@ -114,7 +114,7 @@ footer .contacts p {
 
 .contacts_address::before {
     content: '';
-    background-image: url('../../images/footer2.png'); 
+    background-image: url('../../images/footer.png'); 
     background-size: 120px;
     background-position: -18px -23px;
     margin: 0 6px;

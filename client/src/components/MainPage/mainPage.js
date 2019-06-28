@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import style from "./mainPage.module.css";
 import MainPageBackground from "../../images/main1.jpg";
-import Grecha from "../../images/ingr/grecha.png";
-import Travy from "../../images/ingr/provanskie_travy.png";
-import Salt from "../../images/ingr/sil.png";
 
 const bg = {
   background: `url(${MainPageBackground})`,
@@ -27,7 +24,7 @@ class MainPage extends Component {
         <section style={bg} id="main_section1" className={style.main_section}>
           <div className={style.inner}>
             <div className={style.copy}>
-              <h1 className={style.main_title}>Легкость в каждом мгновении</h1>
+              <h1 className={style.main_title}>Легкость в каждом движении</h1>
               {/* <p>
                 Its like im actually there! But sitting at a computer. Wow, the
                 future is intense!
@@ -47,7 +44,7 @@ class MainPage extends Component {
             </div>
           </div>
         </section> */}
-        <section id="main_section3" style={{background: 'rgba(0,0,0,0.7) url(https://cdn.pixabay.com/photo/2018/05/23/21/32/food-3425223_1280.jpg)',
+        <section id="main_section3" style={{background: 'rgba(0,0,0,0.7) url(https://cdn.pixabay.com/photo/2018/09/02/11/31/wood-fibre-boards-3648597_1280.jpg)',
       
       backgroundSize: 'contain'}} className={style.content}>
           <div className={style.inner}>

@@ -12,8 +12,7 @@ class ProductsPage extends Component {
     
     return (
       <section className={style.products_section}>
-         <h1>Продукция</h1>
-
+         <h1 className={style.products_section_title}>Наша продукция</h1>
         <div className={style.catalog_block}>
          
         <div className={style.novelty_list}>

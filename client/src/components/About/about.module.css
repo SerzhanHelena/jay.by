@@ -4,16 +4,26 @@
 }
 
 .about_wrapper {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-}
-
-.about_us_block {
     font-size: 22px;
     font-family: 'Lato';
     text-align: justify;
+    line-height: 40px;
+}
+
+.about_us_block {
+ 
+}
+
+/* .about_us_for_customer {
+    margin: 22px;
+} */
+
+.about_us_text {
+    margin-bottom: 35px;
 }
 
 .about_us_for_customer {
-    margin: 22px;
+    margin-bottom: 35px;
 }

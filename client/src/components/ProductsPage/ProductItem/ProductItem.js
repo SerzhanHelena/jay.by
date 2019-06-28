@@ -27,7 +27,7 @@ class ProductItem extends Component {
 
     return (
       <div>
-                <div>
+        <div>
           <ReactCSSTransitionGroup
             transitionName="modalWindow"
             transitionAppear={true}
@@ -36,43 +36,40 @@ class ProductItem extends Component {
             transitionLeave={true}
             transitionLeaveTimeout={800}
           >
-            {this.state.openModal && 
+            {this.state.openModal && (
               <ProductModal
                 productId={productData.id}
                 isModalOpened={this.state.openModal}
                 handleModal={this.openModal}
                 productsList={this.props.productsList}
                 getProductById={this.getProductById}
-                key='1'
+                key="1"
               />
-            }
+            )}
           </ReactCSSTransitionGroup>
         </div>
-         <div  className={style.product_card}>
-        <Card
+        <div className={style.product_card}>
+          
+            <Card
+              centered
+              raised
+              data-product={productData.id}
+              onClick={this.openModal}
+            >
+                <Image src={productData.img} wrapped ui={false} />             
+              <Card.Content>
+                <Icon
+                  circular={true}
+                  bordered={true}
+                  color="grey"
+                  size="big"
+                  className={style.zoom_icon}
+                  name="zoom-in"
+                />
+                <Card.Header>{productData.title}</Card.Header>
+              </Card.Content>
+            </Card>
          
-          centered
-          color="red"
-          raised
-          data-product={productData.id}
-          onClick={this.openModal}
-        >
-          <div className={style.product_card_image}>
-          <Image  src={productData.img} ui={false} />
-          </div>
-
-          <Card.Content>
-            <Icon
-              circular={true}
-              bordered={true}
-              color="grey"
-              size="big"
-              className={style.zoom_icon}
-              name="zoom-in"
-            />
-            <Card.Header>{productData.title}</Card.Header>
-          </Card.Content>
-        </Card>
         </div>
       </div>
     );

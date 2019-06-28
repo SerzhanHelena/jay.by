@@ -1,5 +1,9 @@
-import kukuruza from '../images/products/kukuruza.png';
-
+// import kukuruza from '../images/products/kukuruza.png';
+import salt from '../images/products/salt.png';
+import koktel from '../images/products/kokteyl.png';
+import stevia from '../images/products/stevia.png';
+import travy from '../images/products/travy.png';
+import grechka from '../images/products/grechka.png';
   
 
 const initialState = [
@@ -24,7 +28,7 @@ const initialState = [
                 enegry: 1465.4
             }
         },
-        img: kukuruza
+        img: koktel
     },
     {
         id: 2,
@@ -43,7 +47,7 @@ const initialState = [
                 enegry: 1465.4
             }
         },
-        img: kukuruza
+        img: travy
     },
     {
         id: 3,
@@ -61,7 +65,7 @@ const initialState = [
                 enegry: 1590.9
             }
         },
-        img: kukuruza
+        img: grechka
     },
     {
         id: 4,
@@ -80,7 +84,7 @@ const initialState = [
                 enegry: 1465.4
             }
         },
-        img: kukuruza
+        img: salt
     },
     {
         id: 5,
@@ -98,7 +102,7 @@ const initialState = [
                 enegry: 1423.5
             }
         },
-        img: kukuruza
+        img: stevia
     }
 ];
 
