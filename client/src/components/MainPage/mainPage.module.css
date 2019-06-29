@@ -1,16 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 
 .main_block {
-    /* background-image: url('../../images/mainPage.jpg');  */
    background: #3c3f41; 
     background-size: cover;
     height: 100vh;
-}
-
-@media screen and (max-width: 639px) {
-.main_block {
-    /* background: url(./img/main-slide.jpg) 50% no-repeat; */
-}
 }
 
 .main_block_info {
@@ -75,44 +68,26 @@
     border-bottom: 10px solid #bf1420;
 }
 
-/* #main_section1 {
-     background: url('../../images/main1.jpg'); 
-     background-size: cover;
-     background-position: center center;
-     background-attachment: fixed;
-}
-   #main_section2{background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21555/Melissani-cave-natural.jpg);
-     background-size:cover;
-     background-position:center center;
-     background-attachment:fixed;
-   } */
-   /* .main_section, .content{
-     text-align:center; 
-     position:relative;
-     width: 100%;
-   } */
-   
 .main_title {
   font-size: 60px;
   color: white;
-  font-family: 'Lato';
-  font-style: italic;
+  font-family: 'Raleway';
   position: absolute;
   top: 50%;
   left: 50%;
-  border: 2px solid;
 }
 
-   .inner{
-     min-height:100vh;
-     position: relative;
-   }
-   .copy{
-    position:absolute; 
-    top:50%; 
-    height:10em; 
-    margin-top:-5em; 
-    width:100%;
+.inner{
+    min-height:100vh;
+    position: relative;
+}
+
+.copy {
+  position:absolute; 
+  top:50%; 
+  height:10em; 
+  margin-top:-5em; 
+  width:100%;
   }
 
 .item_wrapper {

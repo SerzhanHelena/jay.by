@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import style from "./mainPage.module.css";
 import MainPageBackground from "../../images/main1.jpg";
+import MainPageBackground2 from "../../images/main2.jpg";
 
 const bg = {
   background: `url(${MainPageBackground})`,
@@ -9,10 +10,6 @@ const bg = {
   backgroundAttachment: "fixed"
 };
 
-// const a = {
-//   background: `url(${Grecha})`,
-
-// }
 class MainPage extends Component {
   constructor(props) {
     super(props);
@@ -25,10 +22,6 @@ class MainPage extends Component {
           <div className={style.inner}>
             <div className={style.copy}>
               <h1 className={style.main_title}>Легкость в каждом движении</h1>
-              {/* <p>
-                Its like im actually there! But sitting at a computer. Wow, the
-                future is intense!
-              </p> */}
             </div>
           </div>
         </section>
@@ -44,30 +37,23 @@ class MainPage extends Component {
             </div>
           </div>
         </section> */}
-        <section id="main_section3" style={{background: 'rgba(0,0,0,0.7) url(https://cdn.pixabay.com/photo/2018/09/02/11/31/wood-fibre-boards-3648597_1280.jpg)',
+        <section id="main_section3" style={{background: `url(${MainPageBackground2})`,
       
       backgroundSize: 'contain'}} className={style.content}>
           <div className={style.inner}>
             <div className={style.inner_content}>
               <div className={style.inner_content_info}>
-                {/* <div className={style.copy}>  */}
                 <div className={style.content_wrapper}>
-                  {/* <h1 className={style.useful_ingredients_title}>
-                Польза в каждом ингредиенте
-              </h1> */}
+               
                   <div className={style.item_wrapper}>
                     <div className={`${style.item_container} ${style.row1}`}>
                       <div className={`${style.item} ${style.item_rice} `}>
-                        {/* <img src={Grecha}
-                      alt="Corn"
-                    /> */}
                         <h1
                           className={`${style.item_title} ${
                             style.advice_title
                           }`}
                         >
                           Рис
-                          {/* <span className={style.item_title2}>ка</span> */}
                         </h1>
                       </div>
                       <p className={style.benefits}>
@@ -83,17 +69,12 @@ class MainPage extends Component {
 
                     <div className={`${style.item_container} ${style.row2}`}>
                       <div className={`${style.item} ${style.item_corn}`}>
-                        {/* <img
-                      src={Travy}
-                      alt="Corn"
-                    /> */}
                         <h1
                           className={`${style.item_title} ${
                             style.advice_title
                           }`}
                         >
                           Кукуруза
-                          {/* <span className={style.item_title2}>травы</span> */}
                         </h1>
                       </div>
                       <p className={style.benefits}>
@@ -108,10 +89,6 @@ class MainPage extends Component {
 
                     <div className={`${style.item_container} ${style.row3}`}>
                       <div className={`${style.item} ${style.item_buckwheat}`}>
-                        {/* <img
-                      src="http://www.pngmart.com/files/1/Broccoli-PNG-Clipart.png"
-                      alt="Corn"
-                    /> */}
                         <h1
                           className={`${style.item_title} ${
                             style.advice_title
@@ -133,10 +110,6 @@ class MainPage extends Component {
 
                     <div className={`${style.item_container} ${style.row1}`}>
                       <div className={`${style.item} ${style.item_millet}`}>
-                        {/* <img
-                      src="http://www.pngmart.com/files/1/Broccoli-PNG-Clipart.png"
-                      alt="Corn"
-                    /> */}
                         <h1
                           className={`${style.item_title} ${
                             style.advice_title
@@ -157,14 +130,9 @@ class MainPage extends Component {
                         поддерживающие функционирование мышц.
                       </p>
                     </div>
-                    {/* <div><img src={Salt}/></div> */}
                     <div className={`${style.item_container} ${style.row2}`}>
                       
                       <div className={`${style.item} ${style.item_sea_salt}`}>
-                        {/* <img
-                      src="http://www.pngmart.com/files/1/Broccoli-PNG-Clipart.png"
-                      alt="Corn"
-                    /> */}
                         <h1
                           className={`${style.item_title} ${
                             style.advice_title
@@ -192,10 +160,6 @@ class MainPage extends Component {
 
                     <div className={`${style.item_container} ${style.row3}`}>
                       <div className={`${style.item} ${style.item_linen}`}>
-                        {/* <img
-                      src="http://www.pngmart.com/files/1/Broccoli-PNG-Clipart.png"
-                      alt="Corn"
-                    /> */}
                         <h1
                           className={`${style.item_title} ${
                             style.advice_title
@@ -242,10 +206,6 @@ class MainPage extends Component {
                       }`}
                     >
                       <div className={`${style.item} ${style.item_cinnamon}`}>
-                        {/* <img
-                          src="http://www.pngmart.com/files/1/Broccoli-PNG-Clipart.png"
-                          alt="Corn"
-                        /> */}
                         <h1
                           className={`${style.item_title} ${
                             style.advice_title
@@ -271,10 +231,6 @@ class MainPage extends Component {
                       }`}
                     >
                       <div className={`${style.item} ${style.item_stevia}`}>
-                        {/* <img
-                          src="http://www.pngmart.com/files/1/Broccoli-PNG-Clipart.png"
-                          alt="Corn"
-                        /> */}
                         <h1
                           className={`${style.item_title} ${
                             style.advice_title
