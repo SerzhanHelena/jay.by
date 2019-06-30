@@ -48,7 +48,7 @@
     will-change: transform;
 }
 
-.product_description, .nutritional_value_block, .nutritional_value_block p, .product_composition {
+.product_description, .nutritional_value_block, .nutritional_value_block p, .product_composition, .weight_expirationDate_info  {
     font-size: 22px;
     font-family: 'Lato';
 }

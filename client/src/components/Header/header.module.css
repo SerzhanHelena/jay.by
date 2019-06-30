@@ -50,10 +50,6 @@ header {
     margin: 10px 8px 6px 0;
 }
 
-/* .header_menu_txt {
-    font-family: 'Lato';
-} */
-
 .header_menu, .header_menu_ico {
     transition: all .2s cubic-bezier(.455,.03,.515,.955);
 }
@@ -109,7 +105,6 @@ header {
 
 .header_logo {
     justify-self: center;
-    margin-top: 12px;
 }
 
 .header_logo_link {

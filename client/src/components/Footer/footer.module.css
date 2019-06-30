@@ -23,7 +23,7 @@ footer .container {
     font-family: Roboto;
     font-weight: 400;
     color: #3c3f41;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1em;
 }
 
@@ -86,7 +86,7 @@ footer .container {
 
 footer .contacts p {
     font-family: Roboto-condensed;
-    font-size: 15px;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -121,4 +121,8 @@ footer .contacts p {
     width: 20px;
     height: 20px;
     display: inline-block;
+}
+
+.copy_box_link:hover {
+    color: #b00d18;
 }

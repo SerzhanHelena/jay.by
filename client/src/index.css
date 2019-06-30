@@ -212,7 +212,7 @@ button {
 
 .ui.modal>.content {
   display: grid!important;
-  grid-template-columns: 1fr 2fr!important;
+  grid-template-columns: 1fr 1fr!important;
 }
 
 section:not(#main_section3):not(#advices_section) {

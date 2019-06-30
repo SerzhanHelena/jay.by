@@ -75,7 +75,7 @@ class ProductModal extends Component {
          
           <Modal.Description >
             
-            <div className={styles.product_description}>{this.state.productInfo.description}</div>
+            {/* <div className={styles.product_description}>{this.state.productInfo.description}</div> */}
             <div className={styles.product_composition}>Состав: {this.state.productInfo.composition}</div>
             <div className={styles.nutritional_value_block}>
               Пишевая ценность в 100г продукта:
@@ -105,6 +105,10 @@ class ProductModal extends Component {
     </Table.Body>
   </Table>
 
+            </div>
+            <div className={styles.weight_expirationDate_info}>
+              <p>Масса нетто: {this.state.productInfo.weight}г</p>
+              <p>Срок годности: {this.state.productInfo.expirationDate} месяцев</p>
             </div>
           </Modal.Description>
           </Modal.Content>
