@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans&display=swap');
+
+/* .advice_item {
+    height: 80vh;
+} */
+
+hr {
+    margin: 20px;
+}
+
+.advice_item:first-child {
+    padding-top: 220px;
+}
+
+.advice_title {
+    font-size: 52px;
+    font-family: "Source Serif Pro",serif;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+
+.advices_text p {
+    font-size: 22px;
+    color: #2a363a;
+    text-align: center;
+    font-family: 'PT Sans';
+}
+
+.advices_text{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.advices_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 639px) {
+    .advices_wrapper {
+        grid-template-columns: 1fr;
+    }
+    .advices_image {
+        height: 50vh;
+    }
+    .advice_item {
+        height: unset;
+    }
+    .advice_title {
+        font-size: 32px;
+    }
+    .advices_text {
+        width: 100%;
+    }
+    .advice_item:first-child {
+        padding-top: 0;
+    }
+  }
