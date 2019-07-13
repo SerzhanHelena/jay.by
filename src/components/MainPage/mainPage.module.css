@@ -2,49 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Amiri|Barlow|Caveat|Comfortaa|Dancing+Script|Lobster|Montserrat|PT+Sans|Pacifico&display=swap');
 
-.main_block {
-  background: #3c3f41; 
-  background-size: cover;
-  height: 100vh;
-}
-
-.main_block_info {
-  color: white;
-  position: absolute;
-  top: 60%;
-  left: 7%;
-}
-
-.main_block_about_production {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* height: 100vh; */
-  background: #fff;
-}
-
-.main_block_about_production_info {
-  color: #99101a;
-  font-size: 30px;
-  text-transform: uppercase;
-  align-self: center;
-  justify-self: center;
-}
-    
-
-.main_block_about_production_image {
-  padding: 20px;
-}
-
-.main_block_about_production_image img {
-  width: 100%;
-  transition: all .3s ease;
-}
-
-.main_block_about_production_image:hover img {
-  transform: scale(1.1);
-}
-
-.open_catalog_btn {
+/* .open_catalog_btn {
   height: 50px;
   color: #fff;
   padding: 0 30px;
@@ -53,7 +11,7 @@
   text-transform: uppercase;
   border-top: 0 solid #99101a;
   border-bottom: 10px solid #bf1420;
-}
+} */
 
 .main_title {
   font-size: 70px;
@@ -78,6 +36,7 @@
 .ingredients_item {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: start;
 }
 
 .copy {
@@ -94,9 +53,9 @@
   font-family: 'Montserrat';
 }
 
-.inner_content_info {
+/* .inner_content_info {
   align-self: end;
-}
+} */
 
 .ingredients_item:nth-child(2n) .inner_content_info_title::after {
   content: " ";
@@ -117,13 +76,18 @@
   left: 34%; 
 } 
 
+.ingredients_image {
+  width: 400px;
+  height: 400px;
+}
+
 .image_kor {
   width: 500px;
 }
 
 .image_psheno {
-  width: 450px;
-  height: 450px;
+  width: 470px;
+  height: 470px;
 }
 
 .ingredients_item:nth-child(2n+1) .inner_content_info_title {
@@ -143,18 +107,15 @@
   text-align: right;
 }
 
-.ingredients_image {
-  width: 400px;
-  height: 400px;
-}
-
 .main_section {
   background: url(../../images/main1.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 
-
+#main_section3 {
+ overflow: hidden;
+}
 
 @media screen and (max-width: 639px) {
 .main_section {
@@ -189,6 +150,10 @@
   height: 100%;
 }
 
+.image_kor {
+  width: unset;
+}
+
 .inner_content_info {
   align-self: center;
 }
@@ -211,10 +176,4 @@
   left: unset;
 }
 
-.copy {
-  position: absolute; 
-  top: 50%;  
-  margin-top:-5em; 
-  width:100%;
-}
 }

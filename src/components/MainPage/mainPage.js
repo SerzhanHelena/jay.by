@@ -13,13 +13,6 @@ import stev from "../../images/ingredients/stev.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const bg = {
-  background: `url(${MainPageBackground})`,
-  backgroundSize: "cover",
-  backgroundRepeat: "no-repeat",
-  backgroundAttachment: "fixed"
-};
-
 class MainPage extends Component {
   constructor(props) {
     super(props);
@@ -34,7 +27,7 @@ class MainPage extends Component {
   render() {
     return (
       <main>
-        <section  id="main_section1" className={style.main_section}>
+        <section id="main_section1" className={style.main_section}>
           <div className={style.inner}>
             <div className={style.copy}>
               <h1 className={style.main_title}>
@@ -53,7 +46,6 @@ class MainPage extends Component {
                 <div className={style.inner_content_info}>
                   <p className={style.inner_content_info_title}>Рис</p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     В рисе содержатся восемь жизненно важных для человека
                     аминокислот, без которых невозможно создание новых клеток.
                     7-8% рисовых зерен составляют белки. В состав риса входит
@@ -72,7 +64,6 @@ class MainPage extends Component {
                 <div className={style.inner_content_info}>
                   <p className={style.inner_content_info_title}>Кукуруза</p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     Кукуруза считается одной из самых популярных растительных
                     культур. Польза кукурузы, прежде всего, определяется ее
                     витаминно-минеральным составом. В ней содержатся витамины
@@ -90,7 +81,6 @@ class MainPage extends Component {
                 <div className={style.inner_content_info}>
                   <p className={style.inner_content_info_title}>Гречка</p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     Существует мнение о том, что гречка – это зерно. На самом
                     деле, это семена растения, которое имеет больше сходств с
                     ревенем, чем с пшеницей. Гречка – это источник минеральных
@@ -108,7 +98,6 @@ class MainPage extends Component {
                 <div className={style.inner_content_info}>
                   <p className={style.inner_content_info_title}>Пшено</p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     Пшено неспроста называют золотой крупой. Дело не только в
                     солнечном оттенке, но и в полезных свойствах, которые для
                     культуры такой доступной категории действительно на вес
@@ -129,7 +118,6 @@ class MainPage extends Component {
                 <div className={style.inner_content_info}>
                   <p className={style.inner_content_info_title}>Морская соль</p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     В морской соли содержатся калий, натрий, кальций, магний,
                     бром, йод — эти вещества помогают регулировать питание
                     клеток и их очищение, формируют клеточные оболочки, улучшают
@@ -155,7 +143,6 @@ class MainPage extends Component {
                     Прованские травы
                   </p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     Прованские травы - смесь пряных трав, в которую входят
                     розмарин, базилик, тимьян, шалфей, мята перечная, чабер
                     садовый, душица, майоран. Прованские травы являются не
@@ -179,7 +166,6 @@ class MainPage extends Component {
                 <div className={style.inner_content_info}>
                   <p className={style.inner_content_info_title}>Лен</p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     Набор уникальных аминокислот, витаминов, клетчатка и жирные
                     кислоты делают семя льна уникальным диетическим средством,
                     которое находит применение в разных сферах — оздоровлении,
@@ -195,7 +181,6 @@ class MainPage extends Component {
                 <div className={style.inner_content_info}>
                   <p className={style.inner_content_info_title}>Корица</p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     Корица - специя, которая по популярности не уступает ни
                     одной другой в кулинарии. Именно эта восточная приправа
                     придает выпечке и десертам неповторимый сладко-древесный
@@ -215,7 +200,6 @@ class MainPage extends Component {
                 <div className={style.inner_content_info}>
                   <p className={style.inner_content_info_title}>Стевия</p>
                   <p className={style.inner_content_info_text}>
-                    {" "}
                     Заменитель сахара обладает минимальной калорийностью (18
                     ккал) и гликемическим индексом, равным 0. Именно благодаря
                     этим свойствам продукт просто незаменим для худеющих и лиц,
