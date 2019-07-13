@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 @import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Amiri|Barlow|Caveat|Comfortaa|Dancing+Script|Lobster|Montserrat|PT+Sans|Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 /* .open_catalog_btn {
   height: 50px;
   color: #fff;
@@ -113,8 +113,15 @@
   background-attachment: fixed;
 }
 
-#main_section3 {
+.content {
  overflow: hidden;
+}
+
+.content h1 {
+  font-family: 'Comfortaa';
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 639px) {
@@ -176,4 +183,7 @@
   left: unset;
 }
 
+.content h1 {
+  font-size: 30px;
+}
 }

@@ -36,8 +36,9 @@ class MainPage extends Component {
             </div>
           </div>
         </section>
-        <section id="main_section3" className={style.content}>
+        <section style={{paddingTop: '50px'}} id="main_section3" className={style.content}>
           <div className={style.inner}>
+            <h1>Наши ингредиенты</h1>
             <div className={style.inner_content}>
               <div data-aos="fade-right" className={style.ingredients_item}>
                 <div className={style.inner_content_image}>
