@@ -65,3 +65,8 @@
 .product_info_block_titles {
     font-weight: 600;
 }
+
+.value_image {
+    width: 330px;
+    margin-left: 80px;
+}

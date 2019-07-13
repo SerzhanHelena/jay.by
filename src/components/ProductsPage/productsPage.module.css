@@ -7,12 +7,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    align-items: center;
     grid-gap: 35px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.about_product_text {
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: justify;
+}
 
 @media screen and (max-width: 639px) {
     .novelty_list {

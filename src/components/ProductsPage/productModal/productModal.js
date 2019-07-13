@@ -122,7 +122,7 @@ class ProductModal extends Component {
             <img className={styles.badges_img} src={bezDroz}/>
             <img className={styles.badges_img} src={vegan}/>
             <img className={styles.badges_img} src={tselnozernye}/>
-            <img className={styles.badges_img} src={fitness}/>
+            <img style={{width: '125px'}} className={styles.badges_img} src={fitness}/>
          </div>
          </div>
           </Modal.Description>

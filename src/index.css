@@ -125,6 +125,9 @@ section:not(#main_section3):not(#advices_section) {
   section {
     padding-top: 120px;
   }
+  section.about_wrapper {
+    padding-top: 120px!important;
+  }
 }
 
 .ui.card {

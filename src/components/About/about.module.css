@@ -21,10 +21,6 @@
  
 }
 
-/* .about_us_for_customer {
-    margin: 22px;
-} */
-
 .about_us_text {
     margin-bottom: 35px;
 }
@@ -40,4 +36,29 @@
 .contact_us {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 639px) {
+    .about_wrapper p {
+        padding: 0 15px;
+    }
+    .about_titles {
+        text-align: center;
+    }
+    .contact_us p, .contact_us span {
+        font-size: 18px;
+        margin: 0;
+        text-align: center;
+    }
+    .contact_us {
+        grid-template-columns: 1fr;
+    }
+    .contact_us_title {
+        margin: 0;
+        text-align: center;
+    }
+    .advantages_items li {
+        margin: 5px 30px;
+        line-height: 25px;
+    }
 }

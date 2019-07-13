@@ -39,7 +39,19 @@ footer .container {
 }
 
 .copy_box {
-    padding: 15px 2px 12px;
+    padding: 15px 2px 12px;  
+    grid-template-columns: 1fr;
+    grid-auto-flow: unset;
+    background: #151718;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .contacts {
+    grid-template-columns: 1fr;
 }
 }
 
