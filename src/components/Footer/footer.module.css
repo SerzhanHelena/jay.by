@@ -13,7 +13,7 @@ footer .container {
 .copy_box  {
     padding: 15px 25px 12px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: column;
     background: #151718;
 }
@@ -22,7 +22,7 @@ footer .container {
 .copy_box_text, .copy_box_link, .copy_box p {
     font-family: Roboto;
     font-weight: 400;
-    color: #3c3f41;
+    color: #575c5f;
     font-size: 14px;
     line-height: 1em;
 }

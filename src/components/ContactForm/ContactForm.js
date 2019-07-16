@@ -247,7 +247,7 @@ class ContactForm extends Component {
             <h4 className={style.requisites_block_title}>Реквизиты</h4>
             <p>Республика Беларусь, 222162, г. Жодино, ул. Спортивная, д. 1</p>
             <p>УНП 691732968</p>
-            <p>info@yay.by</p>
+            <p>info@jay.by</p>
             <p>info@flt.by</p>
             <p>+375291820171</p>
           </div>

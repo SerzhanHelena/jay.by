@@ -2,8 +2,8 @@
     position: absolute;
     z-index: 2;
     opacity: 0!important;
-    right: 50%;
-    top: 40%;
+    right: 47%;
+    top: 30%;
 }
 
 .product_card:hover .zoom_icon{ 

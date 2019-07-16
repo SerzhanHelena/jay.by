@@ -13,22 +13,27 @@
 }
 
 .about_product_text {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 22px;
+    line-height: 31px;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1200px;
     text-align: justify;
+    padding-bottom: 42px;
 }
 
 @media screen and (max-width: 639px) {
     .novelty_list {
         grid-template-columns: 1fr;
     }
+
+    .about_product_text {
+        margin: 0 30px;
     }
 
 
 
 .products_section_title {
     font-family: 'Comfortaa';
-    font-size: 55px;
+    font-size: 35px;
+}
 }

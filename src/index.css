@@ -117,10 +117,6 @@ button {
   display: grid!important;
 }
 
-section:not(#main_section3):not(#advices_section) {
-  padding-top: 220px;
-}
-
 @media screen and (max-width: 639px) {
   section {
     padding-top: 120px;
@@ -129,6 +125,12 @@ section:not(#main_section3):not(#advices_section) {
     padding-top: 120px!important;
   }
 }
+
+section:not(#main_section3):not(#advices_section) {
+  padding-top: 220px;
+}
+
+
 
 .ui.card {
   width: 100%!important;
@@ -154,7 +156,8 @@ section:not(#main_section3):not(#advices_section) {
 @import url('https://fonts.googleapis.com/css?family=Forum&display=swap');
 .ui.card>.content>.header {
   font-family: 'Forum'!important;
-  font-size: 30px!important;
+  font-size: 25px!important;
+  text-align: center!important;
 }
 
 #toast-container {
@@ -175,4 +178,9 @@ section:not(#main_section3):not(#advices_section) {
   background-color: #7BC087;
   opacity:1;
   box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+.ui.card>.image>img, .ui.cards>.card>.image>img {
+  width: 80%!important;
+  margin: 0 auto!important;
 }

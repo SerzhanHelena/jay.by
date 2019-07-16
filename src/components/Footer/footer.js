@@ -26,11 +26,11 @@ class Footer extends Component {
                 </div> */}
         </div>
         <div className={style.copy_box}>
-          <p style={{ alignSelf: "center" }} className={style.copy_box_text}>
+          <p className={style.copy_box_text}>
             © 2019 ООО «ФудЛайкТрейд»
           </p>
-          <div style={{ justifySelf: "end" }}>
-            <p>
+          
+            <p style={{justifySelf: 'center'}}>
               Разработка сайта{" "}
               <a
                 className={style.copy_box_link}
@@ -39,7 +39,8 @@ class Footer extends Component {
                 Serzhan Elena
               </a>
             </p>
-            <p>
+           
+            <p style={{justifySelf: 'end'}}>
               Разработка дизайна продукции{" "}
               <a className={style.copy_box_link} href="https://vk.com/james121">
                 Тимофей Абакумов
@@ -52,8 +53,8 @@ class Footer extends Component {
                 Мария Никулина
               </a>
             </p>
-          </div>
-          >
+          
+          
         </div>
       </footer>
     );

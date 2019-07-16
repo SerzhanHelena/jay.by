@@ -73,8 +73,7 @@ const initialState = [
     {
         id: 4,
         title: 'Хлебцы Jay хрустящие, солнечная кукуруза',
-        composition: `крупа кукурузная, крупа рисовая, корица, пищевая добавка, подсластитель
-        экстракт Стевии.`,
+        composition: `крупа кукурузная, соль морская.`,
         value: bzhu_solnechnaya_kukuruza,
         nutritionalValue: {
             proteins: 9.0,
@@ -93,7 +92,8 @@ const initialState = [
     {
         id: 5,
         title: 'Хлебцы Jay хрустящие, ароматная корица и стевия',
-        composition: `крупа кукурузная, соль морская.`,
+        composition: `крупа кукурузная, крупа рисовая, корица, пищевая добавка, подсластитель
+        экстракт Стевии.`,
         value: bzhu_koritsa_i_stevia,
         nutritionalValue: {
             proteins: 8.0,
