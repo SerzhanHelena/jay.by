@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 /* .advice_item {
     height: 80vh;
 } */
@@ -21,6 +21,10 @@ hr {
     text-align: center;
 }
 
+.advices_section_title {
+    font-family: 'Comfortaa';
+    text-align: center;
+}
 
 .advices_text p {
     font-size: 22px;
@@ -30,7 +34,7 @@ hr {
 }
 
 .advices_text{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -39,12 +43,24 @@ hr {
     grid-template-columns: 1fr 1fr;
 }
 
+.advices_image {
+    background: url(https://cdn.pixabay.com/photo/2016/03/15/17/07/girl-1258727_960_720.jpg);
+    background-size: contain;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.advices_section {
+    overflow: hidden;
+}
+
 @media screen and (max-width: 639px) {
     .advices_wrapper {
         grid-template-columns: 1fr;
     }
     .advices_image {
-        height: 50vh;
+       display: none;
     }
     .advice_item {
         height: unset;

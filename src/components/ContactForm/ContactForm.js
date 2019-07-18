@@ -163,7 +163,7 @@ class ContactForm extends Component {
             </Map>
           </YMaps>
 
-          <Skeleton width={"100%"} height={"100%"} />
+          {/* <Skeleton width={"100%"} height={"100%"} /> */}
         </div>
         <div className={style.right_contact_block}>
           <div className={style.right_contact_block_title}>

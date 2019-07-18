@@ -21,6 +21,15 @@
     padding-bottom: 42px;
 }
 
+.products_section_title {
+    font-family: 'Comfortaa';
+    font-size: 45px;
+}
+
+.products_section {
+    padding-top: 200px;
+}
+
 @media screen and (max-width: 639px) {
     .novelty_list {
         grid-template-columns: 1fr;
@@ -30,10 +39,11 @@
         margin: 0 30px;
     }
 
+    .products_section_title {
+        font-size: 30px;
+    }
 
-
-.products_section_title {
-    font-family: 'Comfortaa';
-    font-size: 35px;
-}
+.products_section {
+    padding-top: 120px;
+  }
 }

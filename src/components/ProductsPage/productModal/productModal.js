@@ -84,32 +84,27 @@ class ProductModal extends Component {
             
             <div className={styles.nutritional_value_block}>
               Пишевая ценность в 100г продукта:
-              <Table celled collapsing>
 
-    <Table.Body>
-      <Table.Row active>
-        <Table.Cell >Белки</Table.Cell>
-        <Table.Cell> {this.state.productInfo.nutritionalValue.proteins}г</Table.Cell>
-        
-      </Table.Row>
-      <Table.Row>
-        <Table.Cell>Жиры</Table.Cell>
-        <Table.Cell> {this.state.productInfo.nutritionalValue.fats}г</Table.Cell>
-        
-      </Table.Row>
-      <Table.Row active>
-        <Table.Cell>Углеводы</Table.Cell>
-        <Table.Cell>{this.state.productInfo.nutritionalValue.carbohydrates}г</Table.Cell>
-        
-      </Table.Row>
-      <Table.Row >
-        <Table.Cell>Энергетическая ценность</Table.Cell>
-        <Table.Cell>{this.state.productInfo.nutritionalValue.energyValue.calories}ккал/{this.state.productInfo.nutritionalValue.energyValue.energy}кДж</Table.Cell>
-        
-      </Table.Row>
-    </Table.Body>
-  </Table>
-
+              <table>
+             <tbody>
+               <tr>
+                 <td>Белки</td>
+                 <td>{this.state.productInfo.nutritionalValue.proteins}г</td>
+               </tr>
+               <tr>
+                 <td>Жиры</td>
+                 <td>{this.state.productInfo.nutritionalValue.fats}г</td>
+               </tr>
+               <tr>
+                 <td>Углеводы</td>
+                 <td>{this.state.productInfo.nutritionalValue.carbohydrates}г</td>
+               </tr>
+               <tr>
+                 <td>Энергетическая ценность</td>
+                 <td>{this.state.productInfo.nutritionalValue.energyValue.calories}ккал/ {this.state.productInfo.nutritionalValue.energyValue.energy}кДж</td>
+               </tr>
+             </tbody>
+              </table>
             </div>
             <div className={styles.product_info_block}>
             <div className={styles.product_composition}><span className={styles.product_info_block_titles}>Состав: </span> {this.state.productInfo.composition}</div>
@@ -122,7 +117,7 @@ class ProductModal extends Component {
             <img className={styles.badges_img} src={bezDroz}/>
             <img className={styles.badges_img} src={vegan}/>
             <img className={styles.badges_img} src={tselnozernye}/>
-            <img style={{width: '125px'}} className={styles.badges_img} src={fitness}/>
+            <img className={styles.badges_fitness} src={fitness}/>
          </div>
          </div>
           </Modal.Description>

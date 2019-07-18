@@ -16,6 +16,7 @@
 
 .about_wrapper h1 {
     font-family: 'Comfortaa';
+    font-size: 45px;
 }
 
 .about_us_text {
@@ -33,6 +34,10 @@
 .contact_us {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.about_wrapper {
+    padding-top: 200px;
 }
 
 @media screen and (max-width: 639px) {
@@ -57,5 +62,11 @@
     .advantages_items li {
         margin: 5px 30px;
         line-height: 25px;
+    }
+    .about_wrapper {
+        padding-top: 120px;
+    }
+    .about_wrapper h1 {
+        font-size: 30px;
     }
 }

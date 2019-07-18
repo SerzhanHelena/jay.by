@@ -15,19 +15,10 @@ class Advices extends Component {
   }
 
   render() {
-    const adviceBg = {
-      background: `url('https://cdn.pixabay.com/photo/2016/03/15/17/07/girl-1258727_960_720.jpg')`,
-      backgroundSize: "contain",
-      backgroundPosition: "0% 0%",
-      backgroundAttachment: "fixed",
-      backgroundRepeat: "no-repeat",
-      width: "100%"
-    };
-
     return (
-      <section id="advices_section">
+      <section id="advices_section" className={style.advices_section}>
         <div className={style.advices_wrapper}>
-          <div style={adviceBg} className={style.advices_image} />
+          <div className={style.advices_image} />
           <div className={style.advice_content}>
             <div className={style.advice_item}>
               <div data-aos="fade-right" className={style.advices_text}>

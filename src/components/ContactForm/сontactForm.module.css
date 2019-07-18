@@ -48,10 +48,24 @@ input, textarea {
     font-family: 'Lato';
 }
 
+.contacts_section {
+    padding-top: 200px;
+}
+
 @media screen and (max-width: 639px) {
     .contacts_section {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
+        padding-top: 120px;
+    }
+    .submit_btn {
+        width: 33%;
+    }
+    .right_contact_block {
+        order: 1;
+    }
+    .map {
+        order: 2;
     }
     }
 

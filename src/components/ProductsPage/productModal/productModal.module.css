@@ -62,6 +62,10 @@
     width: 85px;
 }
 
+.badges_fitness {
+    width: 125px;
+}
+
 .product_info_block_titles {
     font-weight: 600;
 }
@@ -69,4 +73,33 @@
 .value_image {
     width: 330px;
     margin-left: 80px;
+}
+
+table tbody tr td:nth-child(even) {
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #E5E9DC;
+}
+
+table td {
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+}
+@media screen and (max-width: 639px) {
+    .product_description, .nutritional_value_block, .nutritional_value_block p, .product_composition, .weight_expirationDate_info {
+        font-size: 16px;
+    }
+    .badges_img {
+        width: 60px;
+    }
+    .badges_fitness {
+        width: 100px;
+    }
 }
