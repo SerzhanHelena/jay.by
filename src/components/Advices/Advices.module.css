@@ -74,4 +74,7 @@ hr {
     .advice_item:first-child {
         padding-top: 0;
     }
+    .advices_section {
+        padding-top: 120px;
+    }
   }

@@ -52,7 +52,7 @@ class Advices extends Component {
             <hr />
             <div className={style.advice_item}>
               <div data-aos="fade-right" className={style.advices_text}>
-                <h2 className={style.advice_title}>Следите за своими весом</h2>
+                <h2 className={style.advice_title}>Следите за своим весом</h2>
                 <p>
                   Лишние килограммы и здоровый образ жизни - вещи несовместимые.
                   Лишний вес приведет Вас к тяжелым заболеваниям сердца, легких,
